@@ -299,10 +299,13 @@ nav ol {
  * 2. Improve image quality when scaled in IE 7.
  */
 img {
-  border: 0;
+  border: 1;
   /* 1 */
   -ms-interpolation-mode: bicubic;
   /* 2 */
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
 }
 
 /**
@@ -544,17 +547,17 @@ a, b {
 }
 
 a, a:visited {
-  color: #23ccbe;
+  color: #00688B;
   text-decoration: none;
   border-bottom: 1px solid #ededed;
 }
 a:hover, a:focus {
-  color: #01aa9c;
+  color: #00688B;
   border-color: #bbb;
 }
 
 .at {
-  color: #b8d8d5;
+  color: #00688B;
 }
 
 .the-pug {

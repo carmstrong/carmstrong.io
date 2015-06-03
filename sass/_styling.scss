@@ -11,19 +11,19 @@ a, b {
 
 a {
   &, &:visited {
-    color: $turquoise;
+    color: $charms-blue;
     text-decoration: none;
     border-bottom: 1px solid $light-gray;
   }
 
   &:hover, &:focus {
-    color: $dark-turquoise;
+    color: $charms-dark-blue;
     border-color: $dark-gray;
   }
 }
 
 .at {
-  color: $light-turquoise;
+  color: $charms-light-blue;
 }
 
 .the-pug {
