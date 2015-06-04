@@ -518,10 +518,6 @@ body {
   max-height: 100%;
 }
 
-.inner-container {
-  padding: 40px 20px 70px;
-}
-
 @media only screen and (max-width: 40rem) {
   .inner-container {
     padding: 40px 20px;
