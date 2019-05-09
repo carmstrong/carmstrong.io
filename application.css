@@ -538,6 +538,12 @@ body {
   font: 300 22px/1.5 "Source Sans Pro", sans-serif;
 }
 
+.passions {
+  text-align: left;
+  align-items: left;
+  -webkit-box-align: left;
+}
+
 a, b {
   font-weight: 400;
 }
